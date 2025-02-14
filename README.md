@@ -31,12 +31,25 @@ docker run --name elasticsearch --net elastic -p 9200:9200 -p 9300:9300 \
   -e "xpack.security.enabled=false" \
   docker.elastic.co/elasticsearch/elasticsearch:8.6.2
 ```
-
+# or
+Use the docker compose file and run the following command
+```sh
+docker-compose -f path/to/docker-compose.yaml up
+```
+# or [Easiest way]
+Use run.sh file
+see run.sh file: Link <a href="./run.sh">[click me]</a>
+```sh
+# change the chmod of the run.sh file
+chmode +x run.sh
+# execute the run.sh file
+./run.sh
+```
 #### Manual Installation
 1. [Download Elasticsearch](https://www.elastic.co/downloads/elasticsearch).
 2. Extract and navigate to the directory.
 3. Run Elasticsearch:
-   ```bash
+   ```sh
    ./bin/elasticsearch
    ```
 4. Access the UI via `http://localhost:9200`.

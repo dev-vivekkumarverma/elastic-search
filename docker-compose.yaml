@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  elastic-search:
+    container_name: elastic-search-container
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.6.2
+    environment:
+      - discovery.type=${discovery_type}
+      - xpack.security.enabled=${xpack_security_enabled}
+    networks:
+      - elastic-search-network
+    volumes:
+      - elastic-search-volume:/data
+    env_file:
+      - .env
+networks:
+  elastic-search-network:
+    driver: bridge
+
+volumes:
+  elastic-search-volume:

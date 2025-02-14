@@ -39,4 +39,37 @@ es.indices.create(
 )
 ```
 
-3. 
+3. `manual Mapping` (schema inforcement)
+- mapping format
+```json
+{
+    "properties": {
+        "content": {
+            "fields": {"keyword": {"ignore_above": 256, "type": "keyword"}},
+            "type": "text",
+        },
+        "created_on": {"type": "date"},
+        "title": {
+            "fields": {"keyword": {"ignore_above": 256, "type": "keyword"}},
+            "type": "text",
+        },
+    }
+}
+```
+- it should be done before adding any document to the index. 
+- it can be done why passing the mapping to the mapping parameter in 
+```python
+indices.create(index="index_name", mapping=mapping)
+```
+- or after creating the document mapping can be inforced using 
+
+```python
+indices.put_mapping(index="index_name", body=mapping)
+```
+4. `Inserting document`
+![Insert document](./img-src/insert_data_to_index.png)
+- `JSON`: only json documnets is stored in elastic search
+- the documents in an index must have `same structure`
+<i> when we insert the document in the index `mapping of different field to their datatype` is` done automatically`.
+- we can even `inforce the structure and fields and their datatypes
+`

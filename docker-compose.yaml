@@ -16,6 +16,7 @@ services:
       - elastic-search-volume:/data
     env_file:
       - .env
+    restart: on-failure
 networks:
   elastic-search-network:
     driver: bridge

@@ -73,3 +73,13 @@ indices.put_mapping(index="index_name", body=mapping)
 <i> when we insert the document in the index `mapping of different field to their datatype` is` done automatically`.
 - we can even `inforce the structure and fields and their datatypes
 `
+
+For code: Refer <a href="./src/create_index.ipynb">[click here..]</a>
+---
+
+## DATA-Types
+
+Link: <a href="./field_data_types.md">[click here...]</a>
+
+
+For code: refer <a href="./src/field_data_types.ipynb">[click me..]</a>

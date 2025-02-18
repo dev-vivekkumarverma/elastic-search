@@ -83,3 +83,15 @@ Link: <a href="./field_data_types.md">[click here...]</a>
 
 
 For code: refer <a href="./src/field_data_types.ipynb">[click me..]</a>
+
+---
+
+## Deleting documnet
+
+Link: <a href="./deleting_document.md">[click here]</a>
+
+---
+
+## Get Document
+
+Link: <a href="./get_document.md">[click here]</a>

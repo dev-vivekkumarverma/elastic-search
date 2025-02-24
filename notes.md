@@ -97,9 +97,28 @@ Link: <a href="./deleting_document.md">[click here]</a>
 Link: <a href="./get_document.md">[click here]</a>
 
 ---
-## APIS
+## APIs
 
 FOR CODE see : <a href="./src/apis.ipynb">[click me]</a>
 For Notes of APIs: <a href="./apis.md">[click me]</a>
 
 ---
+
+## Bulk APIs
+
+For Code see: <a href="./src/bulk_api.ipynb">[click me]</a>
+
+For Notes of APIs: <a href="./bulk_apis.md">[click me]</a>
+
+---
+
+# Search APIs
+
+For code : <a href="./src/search_api.ipynb">[click me]</a>
+
+For Notes of APIs: <a href="./search_apis.md">[click me]</a>
+
+
+---
+
+# 

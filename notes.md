@@ -95,3 +95,11 @@ Link: <a href="./deleting_document.md">[click here]</a>
 ## Get Document
 
 Link: <a href="./get_document.md">[click here]</a>
+
+---
+## APIS
+
+FOR CODE see : <a href="./src/apis.ipynb">[click me]</a>
+For Notes of APIs: <a href="./apis.md">[click me]</a>
+
+---

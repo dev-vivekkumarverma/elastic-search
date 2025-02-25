@@ -112,7 +112,7 @@ For Notes of APIs: <a href="./bulk_apis.md">[click me]</a>
 
 ---
 
-# Search APIs
+# Search APIs and Aggregations
 
 For code : <a href="./src/search_api.ipynb">[click me]</a>
 
@@ -121,4 +121,12 @@ For Notes of APIs: <a href="./search_apis.md">[click me]</a>
 
 ---
 
-# 
+# Dense Vectors
+
+For code : <a href="./src/dense_vectors.ipynb">[click me]</a>
+
+For notes : <a href="./dense_vector.md">[click me]</a>
+
+---
+
+
